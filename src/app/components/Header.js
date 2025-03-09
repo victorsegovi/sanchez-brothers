@@ -29,8 +29,8 @@ export const Header = ({ active }) => {
       <Image
         src="/logo-circular.png"
         alt="Logo"
-        width={160}
-        height={160}
+        width={120}
+        height={120}
       />
       <ul className="flex gap-4 font-medium">
         <li
@@ -46,7 +46,7 @@ export const Header = ({ active }) => {
           }`}
         >
           <div
-            className={`${dropdownToggle?"block": "hidden"} flex flex-col border-t-[#0170B9] absolute top-[180%] left-[-50%] w-[200px] bg-[#FAFAFA] p-4 border-t-2 shadow-2xs gap-4`}
+            className={`${dropdownToggle?"block": "hidden"} flex flex-col border-t-[#0170B9] absolute top-[1120%] left-[-50%] w-[200px] bg-[#FAFAFA] p-4 border-t-2 shadow-2xs gap-4`}
           >
             <a>AC Maintenance</a>
             <a>Heating</a>
@@ -90,8 +90,8 @@ export const Header = ({ active }) => {
       <Image
         src="/logo-circular.png"
         alt="Logo"
-        width={160}
-        height={160}
+        width={120}
+        height={120}
       />
 
       <HiMiniBars3BottomRight className="text-3xl" onClick={handleToggleMobile}/>
@@ -110,7 +110,7 @@ export const Header = ({ active }) => {
           }`}
         >
           <div
-            className={`${dropdownToggle?"block": "hidden"} flex flex-col border-t-[#0170B9] absolute top-[180%] left-[-100%] w-[200px] bg-[#FAFAFA] p-4 border-t-2 shadow-2xs gap-4`}
+            className={`${dropdownToggle?"block": "hidden"} flex flex-col border-t-[#0170B9] absolute top-[1120%] left-[-100%] w-[200px] bg-[#FAFAFA] p-4 border-t-2 shadow-2xs gap-4`}
           >
             <a>AC Maintenance</a>
             <a>Heating</a>

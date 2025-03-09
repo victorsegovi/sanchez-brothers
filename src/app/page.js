@@ -11,10 +11,9 @@ export default function Home() {
       <main className="bg-[#FFFFFF]">
         <div
           id="hero-section"
-          className="h-screen bg-image-hero flex flex-col lg:flex-row bg-cover bg-left"
-          style={{ backgroundImage: "url(/hero-banner.jpg)" }}
+          className=" bg-image-hero flex flex-col justify-between lg:flex-row"
         >
-          <div className="flex flex-col justify-center items-center p-10 gap-6 text-center bg-[#FFFFFF] h-full">
+          <div className="flex flex-col justify-center items-center p-10 h-[50vh] gap-6 text-center bg-[#FFFFFF] lg:h-auto">
             <h1 className="text-4xl font-bold text-[#2f2f2f]">
               Guarantee the comfort of your home
             </h1>
@@ -40,7 +39,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="w-3/4 bg-gradient-to-r from-[#FFFFFF] to-transparent h-0 lg:h-auto"></div>
+          <div className="bg-cover bg-center lg:w-3/4 lg:h-auto h-[50vh]"style={{ backgroundImage: "url(/hero-banner.jpg)" }}>
+            <div className="bg-gradient-to-b lg:bg-gradient-to-r from-[#FFFFFF] to-transparent w-full h-full"></div>
+          </div>
         </div>
         <div id="about-us" className="bg-[#353941] p-10 rounded-b-[16%]">
           <div className="flex flex-col justify-center p-10 gap-4 text-[#FFFFFF]">
@@ -74,7 +75,7 @@ export default function Home() {
               <li>+800 Ducts Services</li>
             </ul>
             <div
-              className="rounded-xl h-[400px] w-[400px] bg-center bg-cover"
+              className="rounded-xl h-[400px] w-full bg-center bg-cover"
               style={{ backgroundImage: "url(/hero-banner.jpg)" }}
             ></div>
           </div>
@@ -195,7 +196,7 @@ export default function Home() {
         </div>
         <div
           id="contact"
-          className="p-10 flex flex-col gap-4 md:flex-row md:items-center md:justify-between md:gap-6"
+          className="p-10 flex flex-col gap-10 items-center justify-center"
         >
           <div className="flex flex-col gap-4 md:w-1/2">
             <h2 className="text-[#2f2f2f] text-4xl">Contact Us Today</h2>
@@ -210,7 +211,7 @@ export default function Home() {
               Get In Touch
             </a>
           </div>
-          <form className="flex flex-col gap-4 text-[#2f2f2f]">
+          <form className="flex flex-col gap-4 text-[#2f2f2f] md:w-1/2">
             <h2 className=" text-4xl md:text-3xl">Schedule your Free Visit</h2>
             <label>
               Your Name <span className="text-red-600 font-bold">*</span>
