@@ -29,8 +29,8 @@ export const Header = ({ active }) => {
       <Image
         src="/logo-circular.png"
         alt="Logo"
-        width={120}
-        height={120}
+        width={100}
+        height={100}
       />
       <ul className="flex gap-4 font-medium">
         <li

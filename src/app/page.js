@@ -11,9 +11,9 @@ export default function Home() {
       <main className="bg-[#FFFFFF]">
         <div
           id="hero-section"
-          className=" bg-image-hero flex flex-col justify-between lg:flex-row"
+          className=" bg-image-hero flex flex-col justify-between lg:flex-row h-screen"
         >
-          <div className="flex flex-col justify-center items-center p-10 h-[50vh] gap-6 text-center bg-[#FFFFFF] lg:h-auto">
+          <div className="flex flex-col justify-center items-center p-10 h-1/2 gap-6 text-center bg-[#FFFFFF] lg:h-auto">
             <h1 className="text-4xl font-bold text-[#2f2f2f]">
               Guarantee the comfort of your home
             </h1>
@@ -39,7 +39,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="bg-cover bg-center lg:w-3/4 lg:h-auto h-[50vh]"style={{ backgroundImage: "url(/hero-banner.jpg)" }}>
+          <div className="bg-cover bg-center lg:w-3/4 lg:h-auto h-1/2"style={{ backgroundImage: "url(/hero-banner.jpg)" }}>
             <div className="bg-gradient-to-b lg:bg-gradient-to-r from-[#FFFFFF] to-transparent w-full h-full"></div>
           </div>
         </div>
